@@ -18,10 +18,6 @@ public class MainPageTest {
     private WebDriver driver;
     private MainPage mainPage;
     private EmailPage emailPage;
-    private float[] searchResult;
-    private boolean check = true;
-    private List<WebElement> elements;
-    private WebDriverWait wait;
     @BeforeTest
     void profileSetup() {
 
